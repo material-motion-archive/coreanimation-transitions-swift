@@ -1,0 +1,10 @@
+module: MaterialMotionCoreAnimationTransitionsPlugin
+module_version: 1.0.0
+sdk: iphonesimulator
+xcodebuild_arguments:
+  - -workspace
+  - MaterialMotionCoreAnimationTransitionsPlugin.xcworkspace
+  - -scheme
+  - MaterialMotionCoreAnimationTransitionsPlugin
+github_url: https://github.com/material-motion/coreanimation-transitions-plugin-swift
+github_file_prefix: https://github.com/material-motion/coreanimation-transitions-plugin-swift/tree/v1.0.0
