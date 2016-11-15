@@ -13,13 +13,13 @@
   "arc.feature.start.default": "origin/develop",
   "unit.xcode": {
     "build": {
-      "workspace": "MaterialMotionCoreAnimationTransitionsPlugin.xcworkspace",
+      "workspace": "MaterialMotionCoreAnimationTransitions.xcworkspace",
       "scheme": "UnitTests",
       "configuration": "Debug",
       "destination": "platform=iOS Simulator,name=iPhone 6s"
     },
     "coverage": {
-      "product": "MaterialMotionCoreAnimationTransitionsPlugin.framework/MaterialMotionCoreAnimationTransitionsPlugin"
+      "product": "MaterialMotionCoreAnimationTransitions.framework/MaterialMotionCoreAnimationTransitions"
     },
     "pre-build": "pod install"
   }

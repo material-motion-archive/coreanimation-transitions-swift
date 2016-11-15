@@ -1,7 +1,7 @@
-# Core Animation Transitions Material Motion Plugin
+# Core Animation transitions for Material Motion (Swift)
 
-[![Build Status](https://travis-ci.org/material-motion/coreanimation-transitions-plugin-swift.svg?branch=develop)](https://travis-ci.org/material-motion/coreanimation-transitions-plugin-swift)
-[![codecov](https://codecov.io/gh/material-motion/coreanimation-transitions-plugin-swift/branch/develop/graph/badge.svg)](https://codecov.io/gh/material-motion/coreanimation-transitions-plugin-swift)
+[![Build Status](https://travis-ci.org/material-motion/coreanimation-transitions-swift.svg?branch=develop)](https://travis-ci.org/material-motion/coreanimation-transitions-swift)
+[![codecov](https://codecov.io/gh/material-motion/coreanimation-transitions-swift/branch/develop/graph/badge.svg)](https://codecov.io/gh/material-motion/coreanimation-transitions-swift)
 
 ## Installation
 
@@ -14,9 +14,9 @@
 >
 >     gem install cocoapods
 
-Add `MaterialMotionCoreAnimationTransitionsPlugin` to your `Podfile`:
+Add `MaterialMotionCoreAnimationTransitions` to your `Podfile`:
 
-    pod 'MaterialMotionCoreAnimationTransitionsPlugin'
+    pod 'MaterialMotionCoreAnimationTransitions'
 
 Then run the following command:
 
@@ -26,7 +26,7 @@ Then run the following command:
 
 Import the framework:
 
-    @import MaterialMotionCoreAnimationTransitionsPlugin;
+    @import MaterialMotionCoreAnimationTransitions;
 
 You will now have access to all of the APIs.
 
@@ -35,10 +35,10 @@ You will now have access to all of the APIs.
 Check out a local copy of the repo to access the Catalog application by running the following
 commands:
 
-    git clone https://github.com/material-motion/coreanimation-transitions-plugin-swift.git
-    cd coreanimation-transitions-plugin-swift
+    git clone https://github.com/material-motion/coreanimation-transitions-swift.git
+    cd coreanimation-transitions-swift
     pod install
-    open MaterialMotionCoreAnimationTransitionsPlugin.xcworkspace
+    open MaterialMotionCoreAnimationTransitions.xcworkspace
 
 ## Guides
 
@@ -53,11 +53,11 @@ commands:
 
 We welcome contributions!
 
-Check out our [upcoming milestones](https://github.com/material-motion/coreanimation-transitions-plugin-swift/milestones).
+Check out our [upcoming milestones](https://github.com/material-motion/coreanimation-transitions-swift/milestones).
 
-Learn more about [our team](https://material-motion.gitbooks.io/material-motion-team/content/),
-[our community](https://material-motion.gitbooks.io/material-motion-team/content/community/), and
-our [contributor essentials](https://material-motion.gitbooks.io/material-motion-team/content/essentials/).
+Learn more about [our team](https://material-motion.github.io/material-motion/team/),
+[our community](https://material-motion.github.io/material-motion/team/community/), and
+our [contributor essentials](https://material-motion.github.io/material-motion/team/essentials/).
 
 ## License
 
