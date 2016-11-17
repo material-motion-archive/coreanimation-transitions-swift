@@ -13,6 +13,7 @@
 		666FAA8B1D384A6B000363DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 666FAA8A1D384A6B000363DA /* Assets.xcassets */; };
 		666FAA8E1D384A6B000363DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 666FAA8C1D384A6B000363DA /* LaunchScreen.storyboard */; };
 		66FB045A1DDD2C810083C6AD /* SlideInExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FB04591DDD2C810083C6AD /* SlideInExample.swift */; };
+		66FB046B1DDD32CE0083C6AD /* TransitionTweenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FB046A1DDD32CE0083C6AD /* TransitionTweenTests.swift */; };
 		8FF825A41AB30668A680C3AF /* Pods_MaterialMotionCoreAnimationTransitions_UnitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C0D4766CE6EDE84E7D070B4 /* Pods_MaterialMotionCoreAnimationTransitions_UnitTests.framework */; };
 		A63FC3E99D8BC6FCE123E749 /* Pods_MaterialMotionCoreAnimationTransitions_Catalog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B80A5FA6B490C0A16775A4 /* Pods_MaterialMotionCoreAnimationTransitions_Catalog.framework */; };
 /* End PBXBuildFile section */
@@ -42,6 +43,7 @@
 		666FAA9A1D384A6B000363DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../UnitTests/Info.plist; sourceTree = "<group>"; };
 		666FAAA71D384D51000363DA /* UnitTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UnitTests-Bridging-Header.h"; path = "../UnitTests/UnitTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		66FB04591DDD2C810083C6AD /* SlideInExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideInExample.swift; sourceTree = "<group>"; };
+		66FB046A1DDD32CE0083C6AD /* TransitionTweenTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionTweenTests.swift; sourceTree = "<group>"; };
 		76A7079425D84A1AF5463BE1 /* Pods-MaterialMotionCoreAnimationTransitions-Catalog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaterialMotionCoreAnimationTransitions-Catalog.debug.xcconfig"; path = "../../../Pods/Target Support Files/Pods-MaterialMotionCoreAnimationTransitions-Catalog/Pods-MaterialMotionCoreAnimationTransitions-Catalog.debug.xcconfig"; sourceTree = "<group>"; };
 		9255549872E19C856B2BF433 /* Pods-MaterialMotionCoreAnimationTransitions-UnitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaterialMotionCoreAnimationTransitions-UnitTests.release.xcconfig"; path = "../../../Pods/Target Support Files/Pods-MaterialMotionCoreAnimationTransitions-UnitTests/Pods-MaterialMotionCoreAnimationTransitions-UnitTests.release.xcconfig"; sourceTree = "<group>"; };
 		A4B80A5FA6B490C0A16775A4 /* Pods_MaterialMotionCoreAnimationTransitions_Catalog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MaterialMotionCoreAnimationTransitions_Catalog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -112,6 +114,7 @@
 		666FAA971D384A6B000363DA /* tests */ = {
 			isa = PBXGroup;
 			children = (
+				66FB046A1DDD32CE0083C6AD /* TransitionTweenTests.swift */,
 			);
 			name = tests;
 			path = ../../../tests/unit;
@@ -377,6 +380,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66FB046B1DDD32CE0083C6AD /* TransitionTweenTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
