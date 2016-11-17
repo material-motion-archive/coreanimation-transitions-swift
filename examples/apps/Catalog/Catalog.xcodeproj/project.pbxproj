@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		664A5B771DD10D320082B5DF /* TableOfContents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664A5B761DD10D320082B5DF /* TableOfContents.swift */; };
-		664A5B791DD10D520082B5DF /* FadeInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664A5B781DD10D520082B5DF /* FadeInViewController.swift */; };
+		664A5B791DD10D520082B5DF /* FadeInExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664A5B781DD10D520082B5DF /* FadeInExample.swift */; };
 		666FAA841D384A6B000363DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666FAA831D384A6B000363DA /* AppDelegate.swift */; };
 		666FAA8B1D384A6B000363DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 666FAA8A1D384A6B000363DA /* Assets.xcassets */; };
 		666FAA8E1D384A6B000363DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 666FAA8C1D384A6B000363DA /* LaunchScreen.storyboard */; };
-		66FB045A1DDD2C810083C6AD /* SlideInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FB04591DDD2C810083C6AD /* SlideInViewController.swift */; };
+		66FB045A1DDD2C810083C6AD /* SlideInExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FB04591DDD2C810083C6AD /* SlideInExample.swift */; };
 		8FF825A41AB30668A680C3AF /* Pods_MaterialMotionCoreAnimationTransitions_UnitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C0D4766CE6EDE84E7D070B4 /* Pods_MaterialMotionCoreAnimationTransitions_UnitTests.framework */; };
 		A63FC3E99D8BC6FCE123E749 /* Pods_MaterialMotionCoreAnimationTransitions_Catalog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B80A5FA6B490C0A16775A4 /* Pods_MaterialMotionCoreAnimationTransitions_Catalog.framework */; };
 /* End PBXBuildFile section */
@@ -32,7 +32,7 @@
 		4C0D4766CE6EDE84E7D070B4 /* Pods_MaterialMotionCoreAnimationTransitions_UnitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MaterialMotionCoreAnimationTransitions_UnitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E9066EBDE8E377FD40943D3 /* Pods-MaterialMotionCoreAnimationTransitions-Catalog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaterialMotionCoreAnimationTransitions-Catalog.release.xcconfig"; path = "../../../Pods/Target Support Files/Pods-MaterialMotionCoreAnimationTransitions-Catalog/Pods-MaterialMotionCoreAnimationTransitions-Catalog.release.xcconfig"; sourceTree = "<group>"; };
 		664A5B761DD10D320082B5DF /* TableOfContents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableOfContents.swift; path = Catalog/TableOfContents.swift; sourceTree = "<group>"; };
-		664A5B781DD10D520082B5DF /* FadeInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadeInViewController.swift; sourceTree = "<group>"; };
+		664A5B781DD10D520082B5DF /* FadeInExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadeInExample.swift; sourceTree = "<group>"; };
 		666FAA801D384A6B000363DA /* Catalog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Catalog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		666FAA831D384A6B000363DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Catalog/AppDelegate.swift; sourceTree = "<group>"; };
 		666FAA8A1D384A6B000363DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -41,7 +41,7 @@
 		666FAA941D384A6B000363DA /* UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		666FAA9A1D384A6B000363DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../UnitTests/Info.plist; sourceTree = "<group>"; };
 		666FAAA71D384D51000363DA /* UnitTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UnitTests-Bridging-Header.h"; path = "../UnitTests/UnitTests-Bridging-Header.h"; sourceTree = "<group>"; };
-		66FB04591DDD2C810083C6AD /* SlideInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideInViewController.swift; sourceTree = "<group>"; };
+		66FB04591DDD2C810083C6AD /* SlideInExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideInExample.swift; sourceTree = "<group>"; };
 		76A7079425D84A1AF5463BE1 /* Pods-MaterialMotionCoreAnimationTransitions-Catalog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaterialMotionCoreAnimationTransitions-Catalog.debug.xcconfig"; path = "../../../Pods/Target Support Files/Pods-MaterialMotionCoreAnimationTransitions-Catalog/Pods-MaterialMotionCoreAnimationTransitions-Catalog.debug.xcconfig"; sourceTree = "<group>"; };
 		9255549872E19C856B2BF433 /* Pods-MaterialMotionCoreAnimationTransitions-UnitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaterialMotionCoreAnimationTransitions-UnitTests.release.xcconfig"; path = "../../../Pods/Target Support Files/Pods-MaterialMotionCoreAnimationTransitions-UnitTests/Pods-MaterialMotionCoreAnimationTransitions-UnitTests.release.xcconfig"; sourceTree = "<group>"; };
 		A4B80A5FA6B490C0A16775A4 /* Pods_MaterialMotionCoreAnimationTransitions_Catalog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MaterialMotionCoreAnimationTransitions_Catalog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -120,8 +120,8 @@
 		666FAAA31D384B13000363DA /* examples */ = {
 			isa = PBXGroup;
 			children = (
-				664A5B781DD10D520082B5DF /* FadeInViewController.swift */,
-				66FB04591DDD2C810083C6AD /* SlideInViewController.swift */,
+				664A5B781DD10D520082B5DF /* FadeInExample.swift */,
+				66FB04591DDD2C810083C6AD /* SlideInExample.swift */,
 			);
 			name = examples;
 			path = ../..;
@@ -367,9 +367,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				666FAA841D384A6B000363DA /* AppDelegate.swift in Sources */,
-				66FB045A1DDD2C810083C6AD /* SlideInViewController.swift in Sources */,
+				66FB045A1DDD2C810083C6AD /* SlideInExample.swift in Sources */,
 				664A5B771DD10D320082B5DF /* TableOfContents.swift in Sources */,
-				664A5B791DD10D520082B5DF /* FadeInViewController.swift in Sources */,
+				664A5B791DD10D520082B5DF /* FadeInExample.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
