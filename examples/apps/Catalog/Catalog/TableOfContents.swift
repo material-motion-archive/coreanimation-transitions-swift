@@ -16,8 +16,14 @@
 
 // MARK: Catalog by convention
 
-extension ExampleViewController {
+extension FadeInViewController {
   class func catalogBreadcrumbs() -> [String] {
-    return ["Example"]
+    return ["1. Fade in"]
+  }
+}
+
+extension SlideInViewController {
+  class func catalogBreadcrumbs() -> [String] {
+    return ["2. Slide in"]
   }
 }
