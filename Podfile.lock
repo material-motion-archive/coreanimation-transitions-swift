@@ -1,19 +1,29 @@
 PODS:
   - CatalogByConvention (2.0.0)
-  - MaterialMotionCoreAnimationTransitionsPlugin (1.0.0)
+  - MaterialMotionCoreAnimation (2.0.0):
+    - MaterialMotionRuntime (~> 6.0)
+  - MaterialMotionCoreAnimationTransitions (1.0.0):
+    - MaterialMotionCoreAnimation (~> 2.0)
+    - MaterialMotionTransitions (~> 1.0)
+  - MaterialMotionRuntime (6.0.0)
+  - MaterialMotionTransitions (1.1.0):
+    - MaterialMotionRuntime (~> 6.0)
 
 DEPENDENCIES:
   - CatalogByConvention
-  - MaterialMotionCoreAnimationTransitionsPlugin (from `./`)
+  - MaterialMotionCoreAnimationTransitions (from `./`)
 
 EXTERNAL SOURCES:
-  MaterialMotionCoreAnimationTransitionsPlugin:
+  MaterialMotionCoreAnimationTransitions:
     :path: "./"
 
 SPEC CHECKSUMS:
   CatalogByConvention: be55c2263132e4f9f59299ac8a528ee8715b3275
-  MaterialMotionCoreAnimationTransitionsPlugin: 91a861e84f5f548e95945b27706f83ffdfc61161
+  MaterialMotionCoreAnimation: fc8f32e641c242a7ff40e78248b238f3954c5e75
+  MaterialMotionCoreAnimationTransitions: 814ef80700d78a245f04ae8215b7227ff2cdb16d
+  MaterialMotionRuntime: 89cb395df1ce02134fc67a16b42dc4492b6c514c
+  MaterialMotionTransitions: b731df47f90a7c8ccc60de1f61446b9f31d08065
 
-PODFILE CHECKSUM: 3551f8326c6828d18744f2ec867d3e470c192561
+PODFILE CHECKSUM: dd154e5de50a8ad79a8d5f184a86c6dd98773a88
 
 COCOAPODS: 1.1.1

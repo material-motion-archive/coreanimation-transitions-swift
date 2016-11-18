@@ -1,9 +1,9 @@
-abstract_target 'MaterialMotionCoreAnimationTransitionsPlugin' do
+abstract_target 'MaterialMotionCoreAnimationTransitions' do
   pod 'CatalogByConvention'
 
-  pod 'MaterialMotionCoreAnimationTransitionsPlugin', :path => './'
+  pod 'MaterialMotionCoreAnimationTransitions', :path => './'
 
-  workspace 'MaterialMotionCoreAnimationTransitionsPlugin.xcworkspace'
+  workspace 'MaterialMotionCoreAnimationTransitions.xcworkspace'
   use_frameworks!
 
   target "Catalog" do
