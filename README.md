@@ -2,6 +2,9 @@
 
 [![Build Status](https://travis-ci.org/material-motion/coreanimation-transitions-swift.svg?branch=develop)](https://travis-ci.org/material-motion/coreanimation-transitions-swift)
 [![codecov](https://codecov.io/gh/material-motion/coreanimation-transitions-swift/branch/develop/graph/badge.svg)](https://codecov.io/gh/material-motion/coreanimation-transitions-swift)
+[![CocoaPods Compatible](https://img.shields.io/cocoapods/v/MaterialMotionCoreAnimationTransitions.svg)](https://cocoapods.org/pods/MaterialMotionCoreAnimationTransitions)
+[![Platform](https://img.shields.io/cocoapods/p/MaterialMotionCoreAnimationTransitions.svg)](http://cocoadocs.org/docsets/MaterialMotionCoreAnimationTransitions)
+[![Docs](https://img.shields.io/cocoapods/metrics/doc-percent/MaterialMotionCoreAnimationTransitions.svg)](http://cocoadocs.org/docsets/MaterialMotionCoreAnimationTransitions)
 
 ## Supported languages
 
