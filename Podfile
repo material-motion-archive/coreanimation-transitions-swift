@@ -1,6 +1,9 @@
 workspace 'MaterialMotionCoreAnimationTransitions.xcworkspace'
 use_frameworks!
 
+pod 'MaterialMotionRuntime', :git => 'https://github.com/material-motion/runtime-objc.git', :branch => 'develop'
+pod 'MaterialMotionTransitions', :git => 'https://github.com/material-motion/transitions-objc.git', :branch => 'develop'
+
 target "Catalog" do
   pod 'CatalogByConvention'
   pod 'MaterialMotionCoreAnimationTransitions/examples', :path => './'
