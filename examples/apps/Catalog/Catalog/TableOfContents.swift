@@ -16,6 +16,8 @@
 
 // MARK: Catalog by convention
 
+import MaterialMotionCoreAnimationTransitions
+
 extension FadeInViewController {
   class func catalogBreadcrumbs() -> [String] {
     return ["1. Fade in"]

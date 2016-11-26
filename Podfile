@@ -1,26 +1,23 @@
-abstract_target 'MaterialMotionCoreAnimationTransitions' do
+workspace 'MaterialMotionCoreAnimationTransitions.xcworkspace'
+use_frameworks!
+
+target "Catalog" do
   pod 'CatalogByConvention'
+  pod 'MaterialMotionCoreAnimationTransitions/examples', :path => './'
+  project 'examples/apps/Catalog/Catalog.xcodeproj'
+end
 
-  pod 'MaterialMotionCoreAnimationTransitions', :path => './'
+target "UnitTests" do
+  project 'examples/apps/Catalog/Catalog.xcodeproj'
+  pod 'MaterialMotionCoreAnimationTransitions/tests', :path => './'
+end
 
-  workspace 'MaterialMotionCoreAnimationTransitions.xcworkspace'
-  use_frameworks!
-
-  target "Catalog" do
-    project 'examples/apps/Catalog/Catalog.xcodeproj'
-  end
-
-  target "UnitTests" do
-    project 'examples/apps/Catalog/Catalog.xcodeproj'
-  end
-
-  post_install do |installer|
-    installer.pods_project.targets.each do |target|
-      target.build_configurations.each do |configuration|
-        configuration.build_settings['SWIFT_VERSION'] = "3.0"
-        if target.name.start_with?("Material")
-          configuration.build_settings['WARNING_CFLAGS'] ="$(inherited) -Wall -Wcast-align -Wconversion -Werror -Wextra -Wimplicit-atomic-properties -Wmissing-prototypes -Wno-sign-conversion -Wno-unused-parameter -Woverlength-strings -Wshadow -Wstrict-selector-match -Wundeclared-selector -Wunreachable-code"
-        end
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |configuration|
+      configuration.build_settings['SWIFT_VERSION'] = "3.0"
+      if target.name.start_with?("Material")
+        configuration.build_settings['WARNING_CFLAGS'] ="$(inherited) -Wall -Wcast-align -Wconversion -Werror -Wextra -Wimplicit-atomic-properties -Wmissing-prototypes -Wno-sign-conversion -Wno-unused-parameter -Woverlength-strings -Wshadow -Wstrict-selector-match -Wundeclared-selector -Wunreachable-code"
       end
     end
   end

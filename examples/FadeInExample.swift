@@ -18,17 +18,17 @@ import UIKit
 import MaterialMotionTransitions
 import MaterialMotionCoreAnimationTransitions
 
-class FadeInViewController: UIViewController {
+public class FadeInViewController: UIViewController {
   init() {
     super.init(nibName: nil, bundle: nil)
     title = "Fade in transition"
   }
 
-  required init?(coder aDecoder: NSCoder) {
+  required public init?(coder aDecoder: NSCoder) {
     fatalError("init(coder:) has not been implemented")
   }
 
-  override func viewDidLoad() {
+  override public func viewDidLoad() {
     super.viewDidLoad()
 
     view.backgroundColor = .white
