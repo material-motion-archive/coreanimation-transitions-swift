@@ -44,17 +44,17 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   MaterialMotionRuntime:
-    :commit: 910c1c4a397edf96af65991a046229c56c11d947
+    :commit: '0922102d40db6d903e3691a269b00eadb01a1490'
     :git: https://github.com/material-motion/runtime-objc.git
   MaterialMotionTransitions:
-    :commit: ab9e276874f0226e86a72feffc6a5b89a32f284a
+    :commit: 5789053356ce82a58f3fc86462db38f0ec1b05ec
     :git: https://github.com/material-motion/transitions-objc.git
 
 SPEC CHECKSUMS:
   CatalogByConvention: be55c2263132e4f9f59299ac8a528ee8715b3275
   MaterialMotionCoreAnimation: fc8f32e641c242a7ff40e78248b238f3954c5e75
   MaterialMotionCoreAnimationTransitions: a74d1539a5f1400a7d602670c5660553ece89d1f
-  MaterialMotionRuntime: c7bcd694687ba429a14b749b7901e396146f3060
+  MaterialMotionRuntime: 428cc4ff81bc4190101bfb1dd34d9e13e26eeb36
   MaterialMotionTransitions: f23fe7e3058d552c2e7eca68ce27be367f068f0f
 
 PODFILE CHECKSUM: a9cc51e5f8cdb17bae01b7ee74feb391facbe20e
